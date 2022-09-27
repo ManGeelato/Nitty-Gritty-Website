@@ -82,7 +82,7 @@ body{
 
 .home .hero{
   min-height: 60vh;
-  background: url(./images/homeBackground.jpg) no-repeat;
+  background: url(./images/CoverPhotoCurrent.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
