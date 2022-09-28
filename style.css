@@ -68,7 +68,7 @@ body{
 }
 
 .header nav ul li a:hover{
-  color:#000;
+  color: var(--orange);
   text-decoration: none;
 }
 
@@ -254,6 +254,44 @@ body{
   transform: scale(1.3);
 }
 
+/****Partners***/
+
+.partners{
+  min-height:100vh;
+  background: var(--orange);
+}
+
+.partners .heading{
+  color:#fff;
+}
+
+.partners .box-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partners .box-container .box{
+  height:20rem;
+  width:30rem;
+  border-radius: .5rem;
+  margin:2rem;
+  overflow: hidden;
+  box-shadow: 0 .3rem .5rem #000;
+}
+
+.partners .box-container .box img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.partners .box-container .box:hover img{
+  transform: scale(.9);
+  border-radius: 4px;
+}
+
+/***end***/
 
 .contact{
   min-height: 100vh;
